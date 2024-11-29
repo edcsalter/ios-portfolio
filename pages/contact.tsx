@@ -22,11 +22,11 @@ const Contact: React.FC = () => {
 
             <div className="text-gray-300">
               <p className="mb-4">
-                I'm always interested in discussing new iOS development opportunities 
+                I&apos;m always interested in discussing new iOS development opportunities 
                 and collaborations. Feel free to reach out!
               </p>
               <p>
-                I'll get back to you as soon as possible.
+                I&apos;ll get back to you as soon as possible.
               </p>
             </div>
           </div>
