@@ -28,7 +28,7 @@ const About: React.FC = () => {
 
   return (
     <Layout>
-      <div className="min-h-screen bg-gray-50 py-12">
+      <div className="min-h-screen bg-gray-50 pt-[30vh]">
         <div className="container mx-auto px-4">
           {/* Professional Summary */}
           <section className="mb-12">
