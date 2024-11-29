@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Layout from "../components/Layout";
+import Image from 'next/image';
 
 interface AppData {
   name: string;
@@ -52,10 +53,13 @@ const ScreenshotCarousel: React.FC<{ screenshots: string[] }> = ({ screenshots }
               key={index}
               className="flex-none w-full"
             >
-              <img 
+              <Image 
                 src={screenshot}
                 alt={`Screenshot ${index + 1}`}
+                width={800}
+                height={600}
                 className="w-full h-48 object-cover rounded-lg"
+                priority
               />
             </div>
           ))}
