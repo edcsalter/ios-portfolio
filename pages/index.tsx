@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 import { useState, useEffect } from "react";
 import Link from 'next/link';
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function Home() {
   const [scrollPercentage, setScrollPercentage] = useState(0);
