@@ -1,0 +1,55 @@
+/* projects.css */
+.projects {
+  padding: 20px;
+  text-align: center;
+}
+
+.app-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.app-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: left;
+}
+
+.app-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.app-card h3 {
+  margin: 10px 0;
+}
+
+.app-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.app-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.app-card a:hover {
+  text-decoration: underline;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
