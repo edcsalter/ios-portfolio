@@ -11,7 +11,10 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <main>
+        {children}
+        <SpeedInsights />
+      </main>
       <Footer />
     </>
   );
