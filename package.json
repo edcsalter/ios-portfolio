@@ -13,12 +13,13 @@
     "@eslint/object-schema": "^2.1.4",
     "@headlessui/react": "^2.2.0",
     "@heroicons/react": "^2.2.0",
+    "@tanstack/react-virtual": "^3.10.9",
     "autoprefixer": "^10.4.20",
     "glob": "^11.0.0",
     "lru-cache": "^10.4.3",
     "next": "15.0.3",
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "rimraf": "^6.0.1"
   },
   "devDependencies": {
