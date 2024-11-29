@@ -120,18 +120,20 @@ const AppCard: React.FC<AppData> = ({
 const Projects: React.FC = () => {
   return (
     <Layout>
-      <div className="min-h-screen bg-gray-50">
-        <div className="container mx-auto px-4 py-12">
-          <h1 className="text-4xl font-bold text-gray-800 text-center mb-12">
-            iOS Portfolio
-          </h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {apps.map((app, index) => (
-              <AppCard key={index} {...app} />
-            ))}
+      <section className="flex flex-col items-center justify-start min-h-[200vh] bg-gray-900 text-white text-center pt-[30vh]">
+        <div className="min-h-screen bg-gray-50">
+          <div className="container mx-auto px-4 py-12">
+            <h1 className="text-4xl font-bold text-gray-800 text-center mb-12">
+              iOS Portfolio
+            </h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {apps.map((app, index) => (
+                <AppCard key={index} {...app} />
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </Layout>
   );
 };

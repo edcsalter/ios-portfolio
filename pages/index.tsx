@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import { useState, useEffect } from "react";
+import Link from 'next/link';
 
 export default function Home() {
   const [scrollPercentage, setScrollPercentage] = useState(0);
@@ -55,7 +56,7 @@ export default function Home() {
         >
           I specialize in building stunning iOS applications.
         </p>
-        <a
+        <Link
           href="/projects"
           className="px-6 py-3 bg-yellow-500 text-black font-bold rounded hover:bg-yellow-400 transition-opacity duration-300"
           style={{
@@ -63,7 +64,7 @@ export default function Home() {
           }}
         >
           See My Work
-        </a>
+        </Link>
       </section>
     </Layout>
   );
